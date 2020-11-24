@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.topbar {
+	background-color: #222;
+	height: 27px;
+}
+.topbar a {
+	color: #fff;
+	text-decoration: none;
+}
+.topbar-container {
+	width: 1070px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.topbar-nav {
+	float: left;
+}
+.topbar-nav ul, .topbar-social ul {
+	display: flex;
+	list-style: none;
+}
+.topbar-nav ul li {
+	margin-right: 25px;
+}
+.topbar-nav ul li:last-child {
+	margin-right: 0;
+}
+.topbar-nav ul li a {
+	line-height: 27px;
+	display: block;
+	/*padding: 5px 0 4px;*/
+}
+.topbar-social {
+	float: right;
+}
+.topbar-social ul li {margin-right: 8px;}
+.topbar-social ul li.icon a {
+	/*background: url(../images/fb-icon.png) no-repeat scroll center center;*/
+	background-image: url("../images/fb-icon.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	display: block;
+	width: 16px;
+	height: 27px;
+	text-indent: -2000em;
+}
+.topbar-social ul li.twitter a {
+	background-image: url("../images/twitter-icon.png");
+}
+.topbar-social ul li.youtube a {
+	background-image: url("../images/youtube-icon.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
